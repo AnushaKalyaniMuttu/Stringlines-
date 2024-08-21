@@ -1,0 +1,10 @@
+// Java Program to demonstrate 
+// the working of repeat() method
+
+class GFG {
+	public static void main(String args[])
+	{
+		String str = "GeeksForGeeks";
+		System.out.println(str.repeat(4));
+	}
+}
