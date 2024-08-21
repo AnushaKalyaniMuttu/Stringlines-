@@ -1,0 +1,13 @@
+// Java Program to demonstrate 
+// the working of lines() method
+
+import java.util.*;
+
+class GFG {
+	public static void main(String args[])
+	{
+		String str = "Geeks\nFor\nGeeks";
+		System.out.println(
+			str.lines().collect(Collectors.toList()));
+	}
+}
